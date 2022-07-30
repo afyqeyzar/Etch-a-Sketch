@@ -1,8 +1,21 @@
 #container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(16, 21px [col-start]);
+    grid-template-rows: repeat(16, 21px [row-start]);
+    height: 350px;
+    width: 350px;
     background-color: pink;
     border: 2px solid black;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    background: black; 
+    height: 20px; 
+    width: 20px; 
+    margin: 1px; 
+    padding: 0px;
 }
