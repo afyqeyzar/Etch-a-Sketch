@@ -6,4 +6,4 @@ div.setAttribute('style', 'background: black; height: 50px; width: 50px; margin:
 //div.textContent = "test"
 
 
-
+container.appendChild(div)
