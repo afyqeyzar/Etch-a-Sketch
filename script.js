@@ -14,3 +14,10 @@ hover.forEach(box => box.addEventListener('mouseover', () => {
 }));
 
 
+function refreshPage(){
+    window.location.reload();
+} 
+
+clearBtn = document.querySelector('#clear-btn')
+clearBtn.addEventListener('click', refreshPage);
+
