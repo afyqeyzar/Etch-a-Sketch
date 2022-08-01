@@ -12,6 +12,24 @@
     
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+
 .box {
     background: white; 
     height: 20px; 
