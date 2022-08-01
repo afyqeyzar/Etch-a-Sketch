@@ -26,6 +26,8 @@ function refreshPage(){
     window.location.reload();
 } 
 
-clearBtn = document.querySelector('#clear-btn')
-clearBtn.addEventListener('click', refreshPage);
+clearBtn = document.querySelector('#clear-btn');
+//clearBtn.addEventListener('click', refreshPage);
+
+clearBtn.addEventListener('click', () => hover.forEach(box => box.classList.remove('color-box')));
 
