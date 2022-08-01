@@ -2,7 +2,7 @@ const container = document.querySelector('#container');
 //sixteenBtn = document.querySelector('#sixteen');
 //sixteenBtn.addEventListener('click', sixteen);
 
-const ROW_WIDTH = 16;
+const ROW_WIDTH = 32;
 
 function sixteen() {
     //document.getElementById("sixteen").disabled = true;
